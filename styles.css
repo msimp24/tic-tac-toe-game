@@ -1,0 +1,43 @@
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    height:540px;
+    width:540px;
+
+}
+.box{
+    height:178.5px;
+    width:178.5px;
+}
+img{
+    height:175px;
+    width:175px;
+    object-fit: cover;
+}
+.box:hover{
+    cursor:pointer;
+}
+button{
+    position: relative;
+    border-radius: 5px;
+    width:100px;
+    height:40px;
+    left:220px;
+    top:20px;
+    color:white;
+    background-color: black;
+}
+button:hover{
+    cursor: pointer;
+}
+h1{
+    
+    top:20px;
+
+}
+#title{
+    position: relative;
+    left:140px;
+    color: black;
+    font-size: 40px;
+}
